@@ -91,7 +91,7 @@ function App() {
                 <li>React</li>
               </div>
               <div>
-                <li>Typescript(Basic)</li>
+                <li>Typescript</li>
               </div>
               <div>
                 <li>Redux</li>
@@ -110,10 +110,10 @@ function App() {
                 <li>Material UI</li>
               </div>
               <div>
-                <li>Node-JS(Beginner)</li>
+                <li>Node-JS</li>
               </div>
               <div>
-                <li>MongoDB(Beginner)</li>
+                <li>MongoDB</li>
               </div>
               <div>
                 <li>NextJs</li>
@@ -125,16 +125,19 @@ function App() {
                 <li>Agile</li>
               </div>
               <div>
-                <li>Object Oriented Programming(OOP)(Beginner)</li>
+                <li>Object Oriented Programming</li>
               </div>
               <div>
-                <li>PostgreSQL(Beginner)</li>
+                <li>PostgreSQL</li>
+              </div>
+              <div>
+                <li>MySQL</li>
               </div>
               <div>
                 <li>Prisma / Mongoose</li>
               </div>
               <div>
-                <li>AWS(Beginner)</li>
+                <li>AWS</li>
               </div>
               <div>
                 <li>DSA</li>
@@ -159,20 +162,22 @@ function App() {
                   ITransition Group
                 </a>
               </h4>
-              <h4 className="my-2">Position: Software Engineer(Intern)</h4>
+              <h4 className="my-2">Position: Software Engineer</h4>
               <h2>Working Period : 8th july 2024 - Present</h2>
               <h4 className="mt-2">
                 <span className="text-blue-500">Responsibilities :</span> As a
                 Software Engineer Intern at iTransition, I'm immersed in a
                 dynamic role that encompasses a wide range of responsibilities
                 and technologies. I collaborate on frontend development
-                projects, leveraging my skills in cryptography, HMAC,OOP,DSA,
+                projects,not only front-End But Also Have to work on different
+                Technlogy leveraging my skills in cryptography, HMAC,OOP,DSA,
                 Node.js, RDBMS, and NoSQL databases. I actively contribute to
-                React-based applications, ensuring adherence to project defense
-                protocols and coding standards set by both USA and European
-                regulations. My tasks include implementing robust security
-                measures, optimizing performance, and adhering to best practices
-                to deliver high-quality software solutions that meet
+                React-based applications,Rest API Create And
+                Integrate,manipulate, Security ,ensuring adherence to project
+                defense protocols and coding standards set by both USA and
+                European regulations. My tasks include implementing robust
+                security measures, optimizing performance, and adhering to best
+                practices to deliver high-quality software solutions that meet
                 international coding standards and exceed client expectations.
               </h4>
             </div>
