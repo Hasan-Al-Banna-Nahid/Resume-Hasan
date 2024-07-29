@@ -444,9 +444,9 @@ function App() {
                 <h2 className="mb-6 text-[17px] font-bold">
                   Passing Year : 2024
                 </h2>
-                <h2 className="text-red-600">
+                {/* <h2 className="text-red-600">
                   Note : I believe in Skills Not College Degree{" "}
-                </h2>
+                </h2> */}
               </div>
             </div>
             <div>
