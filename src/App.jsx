@@ -24,7 +24,7 @@ function App() {
               </a>
             </div>
             <div>
-              <h2>Phone : +8801618701670</h2>
+              <h2>Phone : +8801746432218</h2>
             </div>
             <div>
               <a
@@ -118,29 +118,9 @@ function App() {
               <div>
                 <li>NextJs</li>
               </div>
-              <div>
-                <li>Rest API's</li>
-              </div>
-              <div>
-                <li>Agile</li>
-              </div>
+
               <div>
                 <li>Object Oriented Programming</li>
-              </div>
-              <div>
-                <li>PostgreSQL</li>
-              </div>
-              <div>
-                <li>MySQL</li>
-              </div>
-              <div>
-                <li>Prisma / Mongoose</li>
-              </div>
-              <div>
-                <li>AWS</li>
-              </div>
-              <div>
-                <li>DSA</li>
               </div>
             </div>
           </div>
@@ -155,6 +135,51 @@ function App() {
                 Company :{" "}
                 <a
                   target="_blank"
+                  href="https://webtricker.com/"
+                  referrerPolicy={"noreferrer"}
+                  className="underline"
+                >
+                  WebTricker
+                </a>
+              </h4>
+              <h4 className="my-2">Position: MERN Stack Developer</h4>
+              <h2>Working Period : 1st july 2024 - present</h2>
+              <h4 className="mt-2">
+                Project :{" "}
+                <a
+                  style={{ textDecoration: "underline" }}
+                  href="https://www.redrosebd.com"
+                  target="_blank"
+                >
+                  Thareja Ai- Recruit(Under Development)
+                </a>
+              </h4>
+              <h4>
+                Source Code :
+                <a
+                  href="https://github.com/Hasan-Al-Banna-Nahid/Thareja_AI_Recruit"
+                  target="_blank"
+                >
+                  {" "}
+                  Github
+                </a>
+              </h4>
+              <h4 className="mt-2">
+                <span className="text-blue-500">Responsibilities :</span> As a
+                MERN Stack Developer at Webtricker, I'm immersed in a dynamic
+                role that encompasses a wide range of responsibilities and
+                technologies. I collaborate on frontend development project with
+                React-based(Next-JS) application.
+              </h4>
+            </div>
+            <hr className="border-4" />
+          </div>
+          <div className="text-left">
+            <div className=" text-xl font-bold ">
+              <h4 className="mt-2">
+                Company :{" "}
+                <a
+                  target="_blank"
                   href="https://www.itransition.com/"
                   referrerPolicy={"noreferrer"}
                   className="underline"
@@ -163,15 +188,16 @@ function App() {
                 </a>
               </h4>
               <h4 className="my-2">Position: Software Engineer</h4>
-              <h2>Working Period : 8th july 2024 - Present</h2>
+              <h2>Working Period : 8th july 2024 - sep 16 2024</h2>
               <h4 className="mt-2">
                 <span className="text-blue-500">Responsibilities :</span> As a
                 Software Engineer Intern at iTransition, I'm immersed in a
                 dynamic role that encompasses a wide range of responsibilities
                 and technologies. I collaborate on frontend development
                 projects,not only front-End But Also Have to work on different
-                Technlogy leveraging my skills in cryptography, HMAC,OOP,DSA,
-                Node.js, RDBMS, and NoSQL databases. I actively contribute to
+                Technlogy leveraging my skills in cryptography,
+                HMAC,OOP,DSA,WebRTC,SocketIO,Integration of Different Service or
+                App, Node.js, SQL, and NoSQL databases. I actively contribute to
                 React-based applications,Rest API Create And
                 Integrate,manipulate, Security ,ensuring adherence to project
                 defense protocols and coding standards set by both USA and
@@ -458,7 +484,7 @@ function App() {
                 </h2>
               </div>
             </div>
-            <div>
+            {/* <div>
               <h2 className="text-3xl font-bold  my-4">Professional Course</h2>
               <div className="">
                 <h2 className="my-2 text-[17px] font-bold">
@@ -475,7 +501,7 @@ function App() {
                   Certificate Link
                 </a>
               </div>
-            </div>
+            </div> */}
             {/* <div>
               <h2 className="text-3xl font-bold text-slate-700  my-4">
                 Interpersonal Experience
