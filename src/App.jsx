@@ -129,13 +129,11 @@ function App() {
               <h2>Working Period : 1st july 2024 - present</h2>
               <h4 className="mt-2">
                 Project :{" "}
-                <a
+                <h2
                   style={{ textDecoration: "underline" }}
-                  href="https://thareja.ai/"
-                  target="_blank"
                 >
                   Thareja Ai- Recruit(Under Development)
-                </a>
+                </h2>
               </h4>
 
               <h4 className="mt-2">
