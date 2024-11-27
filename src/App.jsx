@@ -58,10 +58,11 @@ function App() {
               I have a solid background in Full Stack development using
               Javascript Ecosystem. Additionally, I have intermediate-level
               experience in front-end development using React JS,Next JS and
-              JavaScript,Typescript. Furthermore, I have gained proficiency in
-              the NodeJs framework through hands-on experience. I'm a passionate
-              developer who values clean code, best practices, and I embrace new
-              challenges as opportunities to learn and grow.
+              JavaScript,Typescript,Node-JS And MongoDB. Furthermore, I have
+              gained proficiency in the NodeJs framework through hands-on
+              experience. I'm a passionate developer who values clean code, best
+              practices, and I embrace new challenges as opportunities to learn
+              and grow.
             </li>
 
             <br />
@@ -73,32 +74,36 @@ function App() {
             <div className="text-center">
               <h2 className="text-3xl font-bold   my-4">Skills </h2>
             </div>
-            <div className="grid grid-cols-3 gap-4 font-medium text-[18px]">
-              <div>
-                <li>Javascript</li>
+            <div className="flex flex-col justify-center items-center gap-4 font-medium text-[18px]">
+              <div className="flex justify-between w-full max-w-[500px] gap-4">
+                <h2 className="w-1/3">Front-End</h2>:{" "}
+                <div className="w-2/3">React-JS, Next-JS</div>
               </div>
-              <div>
-                <li>React</li>
+              <div className="flex justify-between w-full max-w-[500px] gap-4">
+                <h2 className="w-1/3">Back-End</h2>:{" "}
+                <div className="w-2/3">Node-JS, Express-JS</div>
               </div>
-              <div>
-                <li>Typescript</li>
+              <div className="flex justify-between w-full max-w-[500px] gap-4">
+                <h2 className="w-1/3">Database</h2>:{" "}
+                <div className="w-2/3">MongoDB, PostgreSQL</div>
               </div>
-              <div>
-                <li>Redux</li>
+              <div className="flex justify-between w-full max-w-[500px] gap-4">
+                <h2 className="w-1/3">Programming Language</h2>:{" "}
+                <div className="w-2/3">JavaScript, TypeScript</div>
               </div>
-
-              <div>
-                <li>Firebase</li>
+              <div className="flex justify-between w-full max-w-[500px] gap-4">
+                <h2 className="w-1/3">Tools</h2>:{" "}
+                <div className="w-2/3">
+                  Git, Mongoose, Sequelize, JWT, Tanstack Query, Redux
+                </div>
               </div>
-
-              <div>
-                <li>Node-JS</li>
+              <div className="flex justify-between w-full max-w-[500px] gap-4">
+                <h2 className="w-1/3">Version Control</h2>:{" "}
+                <div className="w-2/3">Git, GitHub</div>
               </div>
-              <div>
-                <li>MongoDB</li>
-              </div>
-              <div>
-                <li>NextJs</li>
+              <div className="flex justify-between w-full max-w-[500px] gap-4">
+                <h2 className="w-1/3">Familiar</h2>:{" "}
+                <div className="w-2/3">AWS,Docker</div>
               </div>
             </div>
           </div>
