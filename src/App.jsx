@@ -8,7 +8,7 @@ function App() {
       <div className="px-[200px]">
         <div className="bg-base-200 text-center">
           <h2 className=" font-bold text-[36px] ">Hasan Al Banna</h2>
-          <p className="font-bold">Software Engineer</p>
+          <p className="font-bold">Full Stack Web Developer(MERN Stack)</p>
           <div className="grid grid-cols-2 gap-2 font-semibold">
             <div>
               <h2>Address : Feni,Bangladesh</h2>
@@ -127,12 +127,15 @@ function App() {
               </h4>
               <h4 className="my-2">Position: MERN Stack Developer</h4>
               <h2>Working Period : 1st july 2024 - present</h2>
-              <h4 className="mt-2">
+              <h4 className="mt-2" style={{ display: "flex", gap: "8px" }}>
                 Project :{" "}
-                <h2
-                  style={{ textDecoration: "underline" }}
-                >
-                  Thareja Ai- Recruit(Under Development)
+                <h2 style={{ textDecoration: "underline" }}>
+                  <a
+                    target="_blank"
+                    href="https://main.d2iyv1nj0eamw0.amplifyapp.com/"
+                  >
+                    Thareja Ai- Recruit
+                  </a>
                 </h2>
               </h4>
 
