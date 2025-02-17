@@ -48,7 +48,7 @@ function App() {
         </div>
 
         {/* Career Objectives */}
-        <div>
+        <div className="text-left">
           <h2 className="text-3xl text-center font-bold my-4">
             Career Objective
           </h2>
@@ -107,7 +107,7 @@ function App() {
         </div>
 
         {/* Experience */}
-        <div>
+        <div className="text-left">
           <h2 className="text-2xl font-bold text-center my-4">Experience</h2>
 
           {/* WebTricker */}
@@ -264,6 +264,70 @@ function App() {
           </div>
         </div>
 
+        {/* Soft Skills */}
+        <div className="text-left">
+          <h2 className="text-3xl font-bold text-center my-4">Soft Skills</h2>
+          <div className="max-w-[600px] mx-auto text-lg font-medium text-center">
+            <p>
+              <strong>Problem-Solving</strong>: Ability to analyze complex
+              problems and find effective solutions.
+            </p>
+            <p>
+              <strong>Team Collaboration</strong>: Works efficiently in team
+              environments, ensuring seamless communication.
+            </p>
+            <p>
+              <strong>Adaptability</strong>: Quickly learns new technologies and
+              adjusts to changing project requirements.
+            </p>
+            <p>
+              <strong>Critical Thinking</strong>: Strong analytical skills for
+              decision-making and problem-solving.
+            </p>
+            <p>
+              <strong>Time Management</strong>: Efficiently prioritizes tasks to
+              meet deadlines.
+            </p>
+          </div>
+        </div>
+
+        {/* English Proficiency */}
+        <div className="text-left">
+          <h2 className="text-3xl font-bold text-center my-4">
+            English Proficiency
+          </h2>
+          <p className="text-center text-lg font-medium">
+            Fluent in both written and spoken English, ensuring effective
+            communication in professional and technical discussions.
+          </p>
+        </div>
+
+        {/* Degree Section */}
+        <div className="text-left">
+          <h2 className="text-3xl font-bold text-center my-4">Degree</h2>
+          <div className="max-w-[600px] mx-auto text-lg font-medium text-center">
+            <p>
+              <strong>Degree:</strong> Diploma in Engineering
+            </p>
+            <p>
+              <strong>Major:</strong> Computer Science and Technology
+            </p>
+            <p>
+              <strong>Institute:</strong> National Institute of Technology
+              (Chittagong)
+            </p>
+            <p>
+              <strong>Session:</strong> 2020-2021
+            </p>
+            <p>
+              <strong>Passing Year:</strong> 2024
+            </p>
+            <p>
+              <strong>CGPA:</strong> 3.74/4.00
+            </p>
+          </div>
+        </div>
+
         {/* Certificate Link */}
         <div className="text-center my-4">
           <h3 className="text-xl font-bold">Certification</h3>
@@ -271,7 +335,7 @@ function App() {
             href="https://drive.google.com/file/d/1EtnRdnnUsetHg6a0V74dMems6E0Hek20/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
-            className="underline text-blue-600"
+            className="underline my-2"
           >
             Click here to view Certificate
           </a>
@@ -279,7 +343,7 @@ function App() {
           <a
             target="_blank"
             href="https://web.programming-hero.com/dashboard"
-            className="underline text-blue-600"
+            className="underline my-2"
           >
             Complete Web Development With Jhankar Mahbub (Programming Hero)
           </a>
