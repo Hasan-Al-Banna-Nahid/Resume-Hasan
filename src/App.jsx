@@ -7,94 +7,91 @@ function App() {
       {/* Contact Info */}
       <div className="px-[200px]">
         <div className="bg-base-200 text-center">
-          <h2 className=" font-bold text-[36px] ">Hasan Al Banna</h2>
-          <p className="font-bold">Full Stack Web Developer(MERN Stack)</p>
+          <h2 className="font-bold text-[36px]">Hasan Al Banna Nahid</h2>
+          <p className="font-bold">MERN Stack Developer</p>
           <div className="grid grid-cols-2 gap-2 font-semibold">
             <div>
-              <h2>Address : Feni,Bangladesh</h2>
+              <h2>Address: Feni, Bangladesh</h2>
             </div>
             <div>
               <a
-                className=" font-semibold"
+                className="font-semibold"
                 href="mailto:iamnahid591998@gmail.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                Email : IamNahid591998@gmail.com
+                Email: iamnahid591998@gmail.com
               </a>
             </div>
             <div>
-              <h2>Phone : +8801746432218</h2>
+              <h2>Phone: +8801746432218(Whatsapp/Telegram)</h2>
             </div>
             <div>
               <a
-                className="mr-4  font-semibold"
+                className="mr-4 font-semibold"
                 href="https://www.linkedin.com/in/hasan-al-banna-84390b276/"
                 target="_blank"
                 rel="noreferrer"
               >
-                1. LinkedIn
+                LinkedIn
               </a>
               <a
-                className=" font-semibold"
+                className="font-semibold"
                 href="https://github.com/Hasan-Al-Banna-Nahid"
                 target="_blank"
                 rel="noreferrer"
               >
-                2.GitHub
+                GitHub
               </a>
             </div>
           </div>
         </div>
-        {/* Contact Info */}
+
+        {/* Career Objectives */}
         <div>
           <h2 className="text-3xl text-center font-bold my-4">
-            Career Objectives
+            Career Objective
           </h2>
           <div className="font-semibold text-[20px]">
-            <li>
-              With 1.6+ years of industry-standard experience in web-based
-              systems development, currently working as a MERN Stack Developer.
-              I have a solid background in Full Stack development using
-              Javascript Ecosystem. Additionally, I have intermediate-level
-              experience in front-end development using React JS,Next JS and
-              JavaScript,Typescript,Node-JS And MongoDB. Furthermore, I have
-              gained proficiency in the NodeJs framework through hands-on
-              experience. I'm a passionate developer who values clean code, best
-              practices, and I embrace new challenges as opportunities to learn
-              and grow.
-            </li>
-
-            <br />
+            <p>
+              I am a passionate and detail-oriented MERN Stack Developer with 2
+              years of hands-on experience in full-stack web development. I
+              specialize in building high-performance web applications using
+              React, Next.js, Node.js, and MongoDB. Focused on delivering clean,
+              efficient code while adhering to best practices. I am highly
+              motivated to take on complex challenges and continuously improve
+              my skill set to deliver user-centric solutions.
+            </p>
           </div>
         </div>
-        {/* Skills And Projects */}
+
+        {/* Skills and Projects */}
         <div>
           <div className="p-4">
             <div className="text-center">
-              <h2 className="text-3xl font-bold   my-4">Skills </h2>
+              <h2 className="text-3xl font-bold my-4">Skills</h2>
             </div>
             <div className="flex flex-col justify-center items-center gap-4 font-medium text-[18px]">
               <div className="flex justify-between w-full max-w-[500px] gap-4">
                 <h2 className="w-1/3">Front-End</h2>:{" "}
-                <div className="w-2/3">React-JS, Next-JS</div>
+                <div className="w-2/3">React, Next.js</div>
               </div>
               <div className="flex justify-between w-full max-w-[500px] gap-4">
                 <h2 className="w-1/3">Back-End</h2>:{" "}
-                <div className="w-2/3">Node-JS, Express-JS</div>
+                <div className="w-2/3">Node.js, Express.js</div>
               </div>
               <div className="flex justify-between w-full max-w-[500px] gap-4">
                 <h2 className="w-1/3">Database</h2>:{" "}
-                <div className="w-2/3">MongoDB, PostgreSQL</div>
+                <div className="w-2/3">MongoDB</div>
               </div>
               <div className="flex justify-between w-full max-w-[500px] gap-4">
-                <h2 className="w-1/3">Programming Language</h2>:{" "}
+                <h2 className="w-1/3">Languages</h2>:{" "}
                 <div className="w-2/3">JavaScript, TypeScript</div>
               </div>
               <div className="flex justify-between w-full max-w-[500px] gap-4">
                 <h2 className="w-1/3">Tools</h2>:{" "}
                 <div className="w-2/3">
-                  Git, Mongoose, Sequelize, JWT, Tanstack Query, Redux
+                  Git, Mongoose, JWT, Redux, Tanstack Query
                 </div>
               </div>
               <div className="flex justify-between w-full max-w-[500px] gap-4">
@@ -103,125 +100,189 @@ function App() {
               </div>
               <div className="flex justify-between w-full max-w-[500px] gap-4">
                 <h2 className="w-1/3">Familiar</h2>:{" "}
-                <div className="w-2/3">AWS,Docker</div>
+                <div className="w-2/3">AWS</div>
               </div>
             </div>
           </div>
         </div>
-        <hr className="border-4" />
-        <div>
-          <h2 className="text-2xl font-bold text-center  my-4">Experience</h2>
 
+        {/* Experience */}
+        <div>
+          <h2 className="text-2xl font-bold text-center my-4">Experience</h2>
+
+          {/* WebTricker */}
           <div className="text-left">
-            <div className=" text-xl font-bold ">
+            <div className="text-xl font-bold">
               <h4 className="mt-2">
-                Company :{" "}
+                Company:{" "}
                 <a
                   target="_blank"
                   href="https://webtricker.com/"
                   referrerPolicy={"noreferrer"}
-                  className="underline"
+                  className="underline text-blue-600"
                 >
                   WebTricker
                 </a>
               </h4>
               <h4 className="my-2">Position: MERN Stack Developer</h4>
-              <h2>Working Period : 1st july 2024 - present</h2>
+              <h2>Working Period: 1st July 2024 - 7th Sept 2024</h2>
               <h4 className="mt-2" style={{ display: "flex", gap: "8px" }}>
-                Project :{" "}
+                Project:{" "}
                 <h2 style={{ textDecoration: "underline" }}>
                   <a
                     target="_blank"
                     href="https://main.d2iyv1nj0eamw0.amplifyapp.com/"
                   >
-                    Thareja Ai- Recruit
+                    Thareja Ai - Recruit
                   </a>
                 </h2>
               </h4>
-
               <h4 className="mt-2">
-                <span className="text-blue-500">Responsibilities :</span> As a
-                MERN Stack Developer at Webtricker, I'm immersed in a dynamic
-                role that encompasses a wide range of responsibilities and
-                technologies. I collaborate on frontend development project with
-                React-based(Next-JS) application.
+                <span className="text-blue-500">Responsibilities:</span>
+                <ul className="list-disc ml-8">
+                  <li>
+                    Led the frontend development using React and Next.js,
+                    ensuring seamless integration with the backend API for
+                    optimized performance.
+                  </li>
+                  <li>
+                    Implemented a dynamic recruitment platform that allows job
+                    seekers to apply and track applications in real-time.
+                  </li>
+                  <li>
+                    Solved cross-browser compatibility issues and improved page
+                    load speed by optimizing React components and reducing
+                    bundle size.
+                  </li>
+                  <li>
+                    Collaborated with backend developers to integrate MongoDB
+                    with the frontend using Mongoose for efficient data fetching
+                    and manipulation.
+                  </li>
+                  <li>
+                    Addressed complex UI/UX challenges, making sure the
+                    application was responsive, user-friendly, and accessible on
+                    all devices.
+                  </li>
+                </ul>
               </h4>
             </div>
             <hr className="border-4" />
           </div>
+
+          {/* ITransition Group */}
           <div className="text-left">
-            <div className=" text-xl font-bold ">
+            <div className="text-xl font-bold">
               <h4 className="mt-2">
-                Company :{" "}
+                Company:{" "}
                 <a
                   target="_blank"
                   href="https://www.itransition.com/"
                   referrerPolicy={"noreferrer"}
-                  className="underline"
+                  className="underline text-blue-600"
                 >
                   ITransition Group
                 </a>
               </h4>
-              <h4 className="my-2">Position: Software Engineer</h4>
-              <h2>Working Period : 8th july 2024 - sep 16 2024</h2>
+              <h4 className="my-2">Position: Software Engineer Intern</h4>
+              <h2>Working Period: 8th July 2024 - 16th Sept 2024</h2>
               <h4 className="mt-2">
-                <span className="text-blue-500">Responsibilities :</span> As a
-                Software Engineer Intern at iTransition, I'm immersed in a
-                dynamic role that encompasses a wide range of responsibilities
-                and technologies. I collaborate on frontend development
-                projects,not only front-End But Also Have to work on different
-                Technlogy leveraging my skills in cryptography,
-                HMAC,OOP,DSA,WebRTC,SocketIO,Integration of Different Service or
-                App, Node.js, SQL, and NoSQL databases. I actively contribute to
-                React-based applications,Rest API Create And
-                Integrate,manipulate, Security ,ensuring adherence to project
-                defense protocols and coding standards set by both USA and
-                European regulations. My tasks include implementing robust
-                security measures, optimizing performance, and adhering to best
-                practices to deliver high-quality software solutions that meet
-                international coding standards and exceed client expectations.
+                <span className="text-blue-500">Responsibilities:</span>
+                <ul className="list-disc ml-8">
+                  <li>
+                    Worked on both frontend and backend components of a web
+                    application, contributing to the improvement of core
+                    features.
+                  </li>
+                  <li>
+                    Integrated WebRTC for real-time communication and
+                    implemented Socket.IO for chat and notifications.
+                  </li>
+                  <li>
+                    Optimized database queries in MongoDB and PostgreSQL to
+                    improve app performance by 20%.
+                  </li>
+                  <li>
+                    Implemented security measures such as JWT authentication and
+                    encrypted sensitive user data.
+                  </li>
+                  <li>
+                    Actively participated in code reviews, ensuring best
+                    practices and high-quality code.
+                  </li>
+                </ul>
               </h4>
             </div>
             <hr className="border-4" />
           </div>
-          {/* ------------------ */}
+
+          {/* Red Rose Corporation */}
           <div className="text-left">
-            <div className=" text-xl font-bold ">
+            <div className="text-xl font-bold">
+              <h4 className="mt-2">Company: Red Rose Corporation</h4>
+              <h4 className="my-2">Position: Front-End Developer</h4>
+              <h2>Working Period: 8th July 2023 - 1st June 2024</h2>
               <h4 className="mt-2">
-                Company : <a>Red Rose Corporation</a>
-              </h4>
-              <h4 className="my-2">
-                Position: Front End Developer(React-JS/Next-JS)
-              </h4>
-              <h2>Working Period : 8th july 2023 - 1st june 2024</h2>
-              <h4 className="mt-2">
-                Project :{" "}
+                Project:{" "}
                 <a
                   style={{ textDecoration: "underline" }}
                   href="https://www.redrosebd.com"
                   target="_blank"
+                  className="text-blue-600"
                 >
                   Red Rose Academy
                 </a>
               </h4>
               <h4 className="mt-2">
-                <span className="text-blue-500"> Responsibilities :</span> I
-                work as a Frontend Developer at This Company, where I not only
-                handle all frontend development tasks but also lead a team of
-                developers in this domain. My role involves designing and
-                implementing user interfaces that are intuitive, visually
-                appealing, and responsive. I collaborate closely with designers
-                and backend developers to integrate frontend components
-                seamlessly into the overall application architecture. As a lead,
-                I provide technical direction, mentorship, and support to ensure
-                that our frontend projects meet high standards of quality and
-                performance. I also oversee project timelines and conduct code
-                reviews to maintain code integrity and optimize user experience
-                across our applications.
+                <span className="text-blue-500">Responsibilities:</span>
+                <ul className="list-disc ml-8">
+                  <li>
+                    Led the frontend development of the Red Rose Academy
+                    platform, ensuring a user-friendly experience for students
+                    and teachers.
+                  </li>
+                  <li>
+                    Implemented responsive and accessible web pages using React
+                    and Next.js, optimized for mobile-first interactions.
+                  </li>
+                  <li>
+                    Integrated RESTful APIs for fetching and displaying course
+                    content, student information, and notifications.
+                  </li>
+                  <li>
+                    Collaborated with the backend team to ensure efficient data
+                    exchange between the client and server.
+                  </li>
+                  <li>
+                    Troubleshot and resolved bugs, enhancing overall user
+                    satisfaction and system reliability.
+                  </li>
+                </ul>
               </h4>
             </div>
             <hr className="border-4" />
           </div>
+        </div>
+
+        {/* Certificate Link */}
+        <div className="text-center my-4">
+          <h3 className="text-xl font-bold">Certification</h3>
+          <a
+            href="https://drive.google.com/file/d/1EtnRdnnUsetHg6a0V74dMems6E0Hek20/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="underline text-blue-600"
+          >
+            Click here to view Certificate
+          </a>
+          <br />
+          <a
+            target="_blank"
+            href="https://web.programming-hero.com/dashboard"
+            className="underline text-blue-600"
+          >
+            Complete Web Development With Jhankar Mahbub (Programming Hero)
+          </a>
         </div>
       </div>
     </>
